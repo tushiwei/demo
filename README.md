@@ -24,4 +24,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+This demo use json-server for mock REST API, data store the db.json in the root folder.
+Steps to run:
+1. In a terminal: install json-server: npm install -g json-server
+2. Cd to the folder where db.json located, run json-server db.json, the Rest API is up with port localhost: 3000.
+3. Open a new terminal, change to project root, then run: 
+    ng serve --open to run the app under Angular Dev Web.
