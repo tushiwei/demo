@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "fake-umbrella"
+    }
+  },
+  "defaultProject": "fake-umbrella",
+  "cli": {
+    "defaultCollection": "@ngrx/schematics"
+  }
 }

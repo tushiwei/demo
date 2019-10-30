@@ -1,0 +1,11 @@
+{
+    "customers": [
+        { "id": 1, "name": "Umbrella1", "contact": "Anderas Thomas", "telephone":"6472345434", "location": "New York", "employees": "1000"},
+        { "id": 2, "name": "Umbrella2", "contact": "Klaus Reiber", "telephone":"4168233456", "location": "Toronto", "employees": "876"},
+        { "id": 3, "name": "Umbrella3", "contact": "Andy Dimitrov", "telephone":"9043456789", "location": "San Franciso", "employees": "324"},
+        { "id": 4, "name": "Umbrella4", "contact": "Hank Heidy", "telephone":"9742341234", "location": "Kinston", "employees": "1256"},
+        { "id": 5, "name": "Umbrella5", "contact": "Chris Yigo", "telephone":"5192134534", "location": "Markham", "employees": "432"},
+        { "id": 6, "name": "Umbrella6", "contact": "Amie Wong", "telephone":"4178432367", "location": "Mississauga", "employees": "798"},
+        { "id": 7, "name": "Umbrella7", "contact": "Christina Janke", "telephone":"4152873456", "location": "London", "employees": "4567"}
+    ]
+}
