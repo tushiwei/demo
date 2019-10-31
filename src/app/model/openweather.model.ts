@@ -100,7 +100,7 @@ export class OWM5Days {
        const hasRainWeather = this.forecastResponse.list.find( l => {
            const w = l.weather.find( weather => {
               const main = weather.main && weather.main.toLowerCase();
-              const hasRain = main ? main.indexOf('rain') > 0 : false;
+              const hasRain = main ? main.indexOf('rain') >= 0 : false;
               return hasRain;
            });
            return !!w;
