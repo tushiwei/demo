@@ -9,13 +9,8 @@ export interface Customer {
     hasRains?: boolean;
 }
 
-export interface LocationWeather {
-    id: number;
-    location: string;
-    hasRains: boolean;
-}
-
 export interface BartChartData {
     name: string;
     value: number;
+    location?: string;
 }

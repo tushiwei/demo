@@ -1,6 +1,7 @@
-<ngx-charts-bar-vertical *ngIf="data"
+<ngx-charts-bar-vertical *ngIf="data" #graph
   [view]="view"
   [scheme]="colorScheme"
+  [customColors]="customColors"
   [results]="data"
   [gradient]="gradient"
   [xAxis]="showXAxis"

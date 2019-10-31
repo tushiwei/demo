@@ -1,5 +1,6 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, ViewChild } from '@angular/core';
 import { BartChartData } from 'src/app/model/customer.model';
+import { BarVerticalComponent } from '@swimlane/ngx-charts';
 
 @Component({
   selector: 'app-bar-chart',

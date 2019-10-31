@@ -1,1 +1,13 @@
 <p>weatherreport works!</p>
+<h2>Where is raining</h2>
+<table class="customers" *ngIf="rainCustomers">
+ <tr><th>name</th><th>contact</th><th>telephone</th><th>city</th><th>employee numbers</th><th>is rainging in 5 days</th></tr>
+ <tr *ngFor="let c of rainCustomers">
+     <td>{{c.customer.name}}</td>
+     <td>{{c.customer.contact}}</td>
+     <td>{{c.customer.telephone}}</td>
+     <td>{{c.customer.location}}</td>
+     <td>{{c.customer.employees}}</td>
+     <td>{{c.hasRain}}</td>
+</tr>
+</table>
