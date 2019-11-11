@@ -4,7 +4,7 @@ import { ManagerComponent } from './manager/manager.component';
 
 
 const customerDataRoutes: Routes = [
-  {path: 'customerdata', component: ManagerComponent}
+  {path: '', component: ManagerComponent}
 ];
 
 @NgModule({
